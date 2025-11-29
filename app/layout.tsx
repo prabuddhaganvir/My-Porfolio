@@ -6,6 +6,7 @@ import GlobalBg from "@/components/GlobalBg";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ChatPopup from "@/components/ChatPopup";
+import UnderDevelopment from "@/components/UnderDevelopment";
 
 
 const geistSans = Geist({
@@ -36,9 +37,8 @@ export default function RootLayout({
         <Navbar />
          <SmoothScroll />
          <GlobalBg />
-
+          <UnderDevelopment />
          <ChatPopup />
-        
         {children}
         
         <Footer />
