@@ -30,11 +30,11 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex items-center gap-4">
-            <Social icon={<Github size={20} />} href="#" />
-            <Social icon={<Linkedin size={20} />} href="#" />
-            <Social icon={<Twitter size={20} />} href="#" />
-          </div>
+         <div className="flex gap-4">
+                     <Social icon={<Github size={20} />} href="https://github.com/prabuddhaganvir"/>
+                     <Social icon={<Linkedin size={20} />} href="https://www.linkedin.com/in/prabuddha-ganvir-869a092a6/"/>
+                     <Social icon={<Twitter size={20} />} href="https://x.com/ganvirprabuddha"  />
+                   </div>
         </div>
 
         {/* Divider */}

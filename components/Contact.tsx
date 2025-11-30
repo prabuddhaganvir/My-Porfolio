@@ -51,16 +51,16 @@ export default function ContactSection() {
                 <div className="text-xs text-neutral-500 font-bold uppercase tracking-wider">
                   Email
                 </div>
-                <div className="font-medium">hello@prabuddha.dev</div>
+                <div className="font-medium">prabuddhpg12@gmail.com</div>
               </div>
             </div>
           </div>
 
           {/* Social Buttons */}
           <div className="flex gap-4">
-            <SocialButton icon={<Github size={20} />} href="#" label="GitHub" />
-            <SocialButton icon={<Linkedin size={20} />} href="#" label="LinkedIn" />
-            <SocialButton icon={<Twitter size={20} />} href="#" label="Twitter" />
+            <SocialButton icon={<Github size={20} />} href="https://github.com/prabuddhaganvir" label="GitHub" />
+            <SocialButton icon={<Linkedin size={20} />} href="https://www.linkedin.com/in/prabuddha-ganvir-869a092a6/" label="LinkedIn" />
+            <SocialButton icon={<Twitter size={20} />} href="https://x.com/ganvirprabuddha" label="Twitter" />
           </div>
         </motion.div>
 
